@@ -86,5 +86,5 @@ backspace.addEventListener('click', ()=>{
 //Equal
 equal.addEventListener('click', ()=> {
     let output = eval(screen.value)
-    screen.value = output.toFixed();
+    screen.value = output.toFixed(2);
 })
