@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>Nuraan's Javascript Calculator</title>
+</head>
+<body>
+    <!-- heading -->
+    <h1 class="head" style="text-align: center; padding-top: 50px">
+        My Javascript Calculator <i class="bi bi-calculator"></i>
+      </h1>
+      <div class="calculator">
+        <!-- screen -->
+        <input type="text" id="output"/>
+        <!-- first row -->
+        <button id="clear">C</button>
+        <button id="backspace">Del<i class="bi bi-backspace"></i></button>
+        <button class="button" onclick="display('.')" id="decimal">.</button>
+        <button class="operators" id="add">+</button>
+        <!-- second row -->
+        <button class="button" onclick="display(1)" value="1">1</button>
+        <button class="button" onclick="display(2)">2</button>
+        <button class="button" onclick="display(3)">3</button>
+        <button class="operators" id="subtract">-</button>
+        <!-- third row -->
+        <button class="button" onclick="display(4)">4</button>
+        <button class="button" onclick="display(5)">5</button>
+        <button class="button" onclick="display(6)">6</button>
+        <button class="operators" id="multiply">*</button>
+        <!-- fourth row -->
+        <button class="button" onclick="display(7)">7</button>
+        <button class="button" onclick="display(8)">8</button>
+        <button class="button" onclick="display(9)">9</button>
+        <button class="operators" id="divide">/</button>
+        <!-- fifth row -->
+        <button class="operators" id="equal">=</button>
+        <button class="buttton" onclick="display('0')">0</button>
+      </div>
+      <!-- bottom text -->
+  <p class="head" style="text-align: center; padding: 50px">By: Nuraan Davids</p>
+  
+    <script src="./script/code.js"></script>
+</body>
+</html>
